@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+<link rel="icon" type="image/x-icon" href="JOJO'S IMAGE.jpg">
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f4f4;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    /* FIRST ROW */
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profile img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    /* TABLE */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* CONTACTS */
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .contacts a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    .contacts i {
+        font-size: 24px;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- FIRST ROW -->
+    <div class="row">
+        <div class="box profile">
+            <img src="JOJO'S IMAGE.jpg" alt="Profile Picture">
+
+            <div>
+                <h2>KABAGA JOSEPH JUNIOR</h2>
+                <p>
+                    I am a passionate IT student interested in web development,
+                    design, and technology. I enjoy building modern web
+                    applications and learning new skills. I am also into music production, videography and graphic design.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECOND ROW -->
+    <div class="row">
+
+        <!-- Schools -->
+        <div class="box">
+            <h3>EDUCATION</h3>
+            <ol>
+                <li>Kyambogo University, BITC, 2024-2027</li>
+                <li>Naalya Secondary School Namugongo, UACE, 2022-2023</li>
+                <li>Kisubi Seminary, UCE, 2016-2021</li>
+            </ol>
+        </div>
+
+        <!-- Skills & Hobbies -->
+        <div class="box">
+            <h3>Skills & Hobbies</h3>
+
+            <p><strong>Skills:</strong></p>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>Music production</li>
+                <li>Videography & Graphics Design</li>
+                <li>Programming</li>
+            </ul>
+
+            <p><strong>Hobbies:</strong></p>
+            <ul>
+                <li>Basketball</li>
+                <li>Music</li>
+                <li>Gaming</li>
+                <li>Taking walks</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- THIRD ROW -->
+    <div class="row">
+        <div class="box">
+            <h3>TimeTable</h3>
+
+            <table>
+                <tr>
+                    <th>Course unit</th>
+                   <th>Course Code</th>
+                    <th>Time</th>
+                    
+                </tr>
+                <tr>
+                    <td>Internet Technologies</td>
+                    <td>SCS2205</td>
+                    <td>8 a.m. - 9 a.m.</td>
+                </tr>
+                <tr>
+                    <td>Object Oriented Programming</td>
+                    <td>SCS2202</td>
+                    <td>12 p.m. - 1 p.m.</td>
+                    
+                </tr>
+                <tr>
+                    <td>Software Engineering</td>
+                    <td>SCS2204</td>
+                    <td>4 p.m. - 6 p.m.</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- FOURTH ROW -->
+    <div class="row">
+        <div class="box contacts">
+
+            <a href="https://whatsapp.com/channel/0029VaApiMsK5cDNO2rQzE2g" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+            </a>
+
+            <a href="https://youtube.com/@itsjojoejay?si=clxuPPxwnnk6YDcT" target="_blank">
+                <i class="fab fa-youtube"></i>
+                Youtube
+            </a>
+
+            <a href="https://www.instagram.com/itsjojoejay?igsh=MXZqbWRtaHpubWU5aQ==" target="_blank">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
